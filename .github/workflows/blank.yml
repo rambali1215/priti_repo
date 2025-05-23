@@ -1,0 +1,11 @@
+name: pritiFrontend
+on: push
+jobs: 
+  pgreet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: greet
+        run: |
+          echo "hello "
+          echo "hello priti"
+      
